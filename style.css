@@ -11,6 +11,7 @@ li{
     transform: rotate(180deg);
     border-top: solid 1px black;
     margin-left:5px;
+    align-self: self-end;
 }
 
 ul{
