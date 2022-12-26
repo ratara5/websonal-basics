@@ -1,15 +1,16 @@
-li>a:hover{
+li:hover{
     border:green solid 2px;
 }
 
 li a{
-    writing-mode: vertical-rl;
+    writing-mode: vertical-lr;
     padding:20px;
 }
 
 li{
     transform: rotate(180deg);
     border-top: solid 1px black;
+    margin-left:5px;
 }
 
 ul{
@@ -30,12 +31,12 @@ ul{
 
 .container div{
     flex-basis: 45%;
-    
 }
 
 .library{
     flex-shrink:1;
     padding-right: 5%;
+    background-color: rgba(182, 61, 40, 0.815);
 }
 
 .desktop{
